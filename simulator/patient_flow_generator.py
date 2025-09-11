@@ -9,6 +9,7 @@ from kafka import KafkaProducer
 EVENTHUBS_NAMESPACE = "hospital-analytics-eh-namespace.servicebus.windows.net"
 EVENT_HUB_NAME="hospital-analytics-eh"  
 CONNECTION_STRING = "Connection String"
+
 producer = KafkaProducer(
     bootstrap_servers=[f"{EVENTHUBS_NAMESPACE}:9093"],
     security_protocol="SASL_SSL",
