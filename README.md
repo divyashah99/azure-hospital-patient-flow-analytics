@@ -113,7 +113,7 @@ This lack of visibility leads to **longer patient waiting times** and difficulty
 ### Step 1: Run Event Producer  
 ```bash
 python scripts/patient_event_producer.py
-
+```
 This streams synthetic patient events into Event Hub.
 
 ### Step 2: Bronze & Silver Layers (Databricks Streaming Jobs)
